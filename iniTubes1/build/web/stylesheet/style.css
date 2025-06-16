@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Profile Section */
+.profile-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    border-bottom: 1px solid #333;
+}
+
+/* Profile Image */
+.profile-section img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+/* Balance Section */
+.balance {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+}
+
+/* Balance Heading */
+.balance h3 {
+    color: #ffffff;
+}
+
+/* Button Styling */
+.buttons button {
+    margin-left: 0.5rem;
+    background-color: #a36cf2; /* Changed to match UI */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+}
+
+/* Navigation Links */
+nav {
+    display: flex; /* Added to align links horizontally */
+}
+nav a {
+    color: #ccc;
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+nav a.active {
+    border-bottom: 2px solid #a36cf2;
+    color: #fff;
+}
+
+/* Form Wrapper */
+.form-wrapper {
+    padding: 2rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%; /* Make table full width */
+    border-collapse: collapse; /* Remove gaps between cells */
+    background-color: #1a1a1a;
+}
+
+table thead {
+    background-color: #a36cf2;
+    color: #fff;
+}
+
+table th, table td {
+    padding: 1rem; /* Add padding */
+    text-align: left; /* Left align text */
+    border-bottom: 1px solid #333; /* Underline row */
+}
+
+table tr:nth-child(even) {
+    background-color: #2a2a2a; /* Alternate row color */
+}
+
+/* Table Heading */
+h2 {
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem; /* Increased font size */
+}
